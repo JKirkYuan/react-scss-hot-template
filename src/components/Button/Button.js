@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import './Test.css';
+import './Button.css';
 
 class Test extends Component {
+  constructor(props){
+    super(props);
+  }
 
   _handleClick() {
     window.alert("WOW so cool");
@@ -9,7 +12,7 @@ class Test extends Component {
 
   render() {
     return (
-      <button onClick={this._handleClick}></button>
+      <button className="button" onClick={this._handleClick}>{this.props.text}</button>
     );
   }
 }
