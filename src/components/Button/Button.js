@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Button.css';
 
-class Test extends Component {
+class Button extends Component {
   constructor(props){
     super(props);
   }
@@ -17,4 +17,4 @@ class Test extends Component {
   }
 }
 
-export default Test;
+export default Button;
