@@ -4,6 +4,7 @@ import './Button.css';
 class Button extends Component {
   constructor(props){
     super(props);
+    this._handleClick = this._handleClick.bind(this);
   }
 
   _handleClick() {
